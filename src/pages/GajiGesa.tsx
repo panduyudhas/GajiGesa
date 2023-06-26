@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useState } from "react";
 import "antd/dist/antd.min.css";
 import { Select, Slider } from "antd";
 import ValueSlider from "../components/ValueSlider";

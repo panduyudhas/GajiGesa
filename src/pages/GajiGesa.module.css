@@ -1,0 +1,57 @@
+.inputGroup,
+.withdrawlAmount {
+  position: absolute;
+  top: 71px;
+  left: 191px;
+}
+.withdrawlAmount {
+  top: 83px;
+  left: 49px;
+  font-size: 11.96px;
+  letter-spacing: 0.11px;
+  line-height: 17.94px;
+}
+.iconsmodeEdit24px {
+  position: absolute;
+  top: 139px;
+  left: 399px;
+  width: 24px;
+  height: 24px;
+}
+.slider {
+  position: absolute;
+  width: 76.8%;
+  top: calc(50% + 25px);
+  right: 13.14%;
+  left: 10.06%;
+}
+.rp100,
+.rp2085500 {
+  position: absolute;
+  top: 241px;
+  left: 57px;
+  letter-spacing: 0.11px;
+}
+.rp2085500 {
+  left: 351px;
+}
+.gajigesaChild {
+  position: absolute;
+  top: 176.5px;
+  left: 55.5px;
+  border-top: 1px solid #e3d3d3;
+  box-sizing: border-box;
+  width: 359px;
+  height: 1px;
+}
+.gajigesa {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 354px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

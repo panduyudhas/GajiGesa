@@ -3,15 +3,17 @@ import "antd/dist/antd.min.css";
 import { Select, Slider } from "antd";
 import ValueSlider from "../components/ValueSlider";
 import styles from "./GajiGesa.module.css";
+const handleOptionChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
 const GajiGesa: FunctionComponent = () => {
   return (
     <div className={styles.gajigesa}>
       <Select
         className={styles.inputGroup}
         style={{ width: "235.7241668701172px" }}
-        name="Option"
-        id="Option"
-        value="Akun Gaji"
+        value={selectedOption}
+        onChange={handleOptionChange}
         size="middle"
         placeholder="Akun Gaji"
         filterOption={(input: any, option: any) =>

@@ -36,10 +36,11 @@ const GajiGesa: FunctionComponent = () => {
         min={100}
         max={2085500}
         defaultValue={0}
+        onChange={(value) => setSliderValue(value)}
       />
       <div className={styles.rp100}>Rp 100</div>
       <div className={styles.rp2085500}>Rp 2.085.500</div>
-      <ValueSlider slider="slider" />
+      <ValueSlider slider={sliderValue} />
       <div className={styles.gajigesaChild} />
     </div>
   );
